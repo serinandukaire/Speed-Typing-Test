@@ -32,16 +32,16 @@ def game():
     word = random.randint(0,(len(word_list)-1))
     start = timer()
     window = Tk()
-    window.geometry("450x200")
+    window.geometry("500x200")
     
     x2 = Label(window,text = word_list[word].upper(),font = "times 20")
-    x2.place(x=150,y=10)
+    x2.place(x = 150,y = 10)
     
     x3 = Label(window,text = "Let's see how fast you can write:",font = "times 20")
-    x3.place(x=10,y=50)
+    x3.place(x = 10,y = 50)
     
     entry = Entry(window)
-    entry.place(x = 280,y = 55)
+    entry.place(x = 370,y = 60)
     
     b2 = Button(window,text = "SUBMIT", command = check_result,width = 12, bg = 'gray')
     b2.place(x = 150,y = 100)
