@@ -1,2 +1,3 @@
 # Speed-Typing-Test
-In browser HTML speed typing test 
+Downloadable speed typing test 
+Uses tkinter
